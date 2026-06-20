@@ -240,7 +240,7 @@ static void tim_setup(void)
         / 1000000
     );
 
-    // Fs = 17500 Hz
+    // Fs = 15500 Hz
     timer_set_period(
         TIM2,
         1000000 / 15500
